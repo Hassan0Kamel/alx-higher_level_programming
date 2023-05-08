@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * check_cycle - checking if a 
+ * check_cycle - checking if a
  * @list: linked list
  * Return: 1 if it has cycle, 0 if not
  */
