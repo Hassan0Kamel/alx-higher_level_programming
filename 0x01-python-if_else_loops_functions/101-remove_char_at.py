@@ -3,6 +3,6 @@
 
 def remove_char_at(str, n):
     """Create a copy of a string without char at position F."""
-    if f < 0:
+    if n < 0:
         return (str)
     return (str[:n] + str[n+1:])
