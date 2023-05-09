@@ -1,4 +1,4 @@
-#include "lists.h"
+iinclude "lists.h"
 /**
  * insert_node - Inserts a nu a sorted singly-linked list.
  * @head: A pointer t of the linked list.
@@ -25,8 +25,8 @@ listint_t *insert_node(listint_t **head, int number)
 	{
 		node = node->next;
 
-		new->next = node->next;
-		node->next = new;
+	new->next = node->next;
+	node->next = new;
 	}
 	return (new);
 }
