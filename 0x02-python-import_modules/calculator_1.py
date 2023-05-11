@@ -18,9 +18,11 @@ def sub(a, b):
     A
     Args:
     a: first integer
+    B
     b: second integer
     Returns:
     The return value. a - b
+    B
     """
     return (a - b)
 
@@ -30,9 +32,11 @@ def mul(a, b):
     Args:
     A
     a: first integer
+    B
     b: second integer
     Returns:
     The return value. a * b
+    B
     """
     return (a * b)
 
@@ -42,6 +46,7 @@ def div(a, b):
     Args:
     a: first integer
     b: second integer
+    B
     Returns:
-
+    """
     return int(a / b)
