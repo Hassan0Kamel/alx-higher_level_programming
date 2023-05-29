@@ -5,14 +5,12 @@ import sys
 
 def safe_function(fct, *args):
     """Execuon safely.
-
     Args:
-        fct: The function to execute.
-        args: Arguments for fct.
-
+        fct: Thction to execute.
+        args: Argumect.
     Returns:
-        If an error occurs - None.
-        Otherwise - the result of the call to fct.
+        If an error occurs - Nne.
+        Otherwise - thet of the call to fct.
     """
     try:
         result = fct(*args)
